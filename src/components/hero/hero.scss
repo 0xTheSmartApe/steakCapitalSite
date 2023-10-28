@@ -1,0 +1,108 @@
+.hero{
+    height: calc(95vh - 100px);
+    overflow: hidden;
+    background: #F6F7E6;
+    position: relative;
+
+    .wrapper{
+        max-width: 1600px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            margin-left: 60px;
+
+            .H2{
+                font-size: 45px;
+                color: #c0121e;
+                letter-spacing: 5px;
+            }
+
+            .H1{
+                font-size: 60px;
+                color: black;
+            }
+
+            .scroll{
+                width: 2cm;
+            }
+
+            .buttons{
+                width: 40%;
+                button{
+                    padding: 20px;
+                    border: 1px solid #f6f7e600;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: #000000;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-weight: 300;
+                    z-index: 2; /* Met le bouton en premier plan */
+                    position: relative;
+                    text-align: center;
+                    justify-content: center;
+                }
+        
+        
+                .buttonJoin{
+                    background-image: linear-gradient(-180deg, #F6F7E6 0%, #F6F7E6 100%);
+                    border-radius: .5rem;
+                    box-sizing: border-box;
+                    color: #c0121e;
+                    display: flex;
+                    justify-content: center;
+                    padding: 1rem 1.75rem;
+                    text-decoration: none;
+                    width: 100%;
+                    border: 0;
+                    cursor: pointer;
+                    user-select: none;
+                    -webkit-user-select: none;
+                    touch-action: manipulation;
+                    align-items: center;
+                    gap: 20px;
+                    font-size: 30px;
+                    border: 2px solid #c0121e;
+                    border-width: 5px;
+                    font-weight: bold;
+                }
+        
+                .buttonJoin:hover {
+                    background-image: linear-gradient(-180deg, wheat 0%, wheat 100%);
+                }
+            }
+        }
+    }
+
+    
+
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        top:0;
+        right: 0;
+
+        .steak{
+            height: 500px;
+            margin-top: 100px;
+        }
+    }
+
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -120px;
+        white-space: nowrap;
+        color: rgba(0, 0, 0, 0.493);
+        width: 50%;
+        font-weight: bold;
+        z-index: 1; /* Met le texte en arrière-plan */
+    }
+}

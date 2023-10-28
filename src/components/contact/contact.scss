@@ -1,0 +1,164 @@
+.contact{
+    h1{
+        color: black;
+        max-width: 1000px;
+        width: 80%;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        font-size: 50px;
+        align-items: center;
+        font-weight: bold;
+    }
+    .contact1{
+        // height: 100%;
+        // max-width: 1600px;
+        // margin: auto;
+        // margin-top: 50px;
+        // display: flex;
+        // align-items: center;
+        display: flex;
+        align-items: center; /* Centrer verticalement */
+        justify-content: center; /* Centrer horizontalement */
+        height: 60vh; /* Ajustez la hauteur en fonction de vos besoins */
+    
+        // .textContainer{
+        //     flex: 1;
+        //     display: flex;
+        //     flex-direction: column;
+        //     gap: 400px;
+            
+        //     .titre{
+        //         font-size: 100px;
+        //         color: black;
+        //         line-height: 88px;
+        //     }
+    
+        //     span{
+        //         font-weight: 300;
+        //     }
+
+        // }
+    
+        
+    
+        .formContainer{
+            // flex:1;
+            // max-width: 50%;
+            flex: 1; /* Les formulaires et les boutons prennent 50% de l'espace chacun */
+            padding: 60px; /* Ajoutez un espacement intérieur */
+            .form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+    
+                input,textarea{
+                    padding: 20px;
+                    background-color: transparent;
+                    border: 1px solid rgb(0, 0, 0);
+                    color: black;
+                    border-radius: 5px;
+                }
+    
+                button{
+                    padding: 20px;
+                    border: none;
+                    background-color: rgba(255, 0, 0, 0.849);
+                    cursor: pointer;
+                    font-weight: 1000;
+                    font-size: large;
+                    background-image: linear-gradient(-180deg, #F6F7E6 0%, #F6F7E6 100%);
+                    border-radius: .5rem;
+                    box-sizing: border-box;
+                    color: #c0121e;
+                    display: flex;
+                    justify-content: center;
+                    padding: 1rem 1.75rem;
+                    text-decoration: none;
+                    width: 100%;
+                    border: 0;
+                    cursor: pointer;
+                    user-select: none;
+                    -webkit-user-select: none;
+                    touch-action: manipulation;
+                    align-items: center;
+                    gap: 20px;
+                    font-size: 30px;
+                    border: 2px solid #c0121e;
+                    border-width: 5px;
+                    font-weight: bold;
+                }
+                button:hover {
+                    background-image: linear-gradient(-180deg, wheat 0%, wheat 100%);
+                }
+            }
+        }
+
+        .vertical-bar{
+            height: 100%;
+            width: 1;
+            background-color: black;
+            color: black;
+        }
+
+        .button2{
+            // flex: 1;
+            // max-width: 40%;
+            // display: flex;
+            // flex-direction: column;
+            flex: 1; /* Les formulaires et les boutons prennent 50% de l'espace chacun */
+            padding: 60px; /* Ajoutez un espacement intérieur */
+            .buttonTG{
+                background-image: linear-gradient(-180deg, #F6F7E6 0%, #F6F7E6 100%);
+                border-radius: .5rem;
+                box-sizing: border-box;
+                color: #c0121e;
+                display: flex;
+                justify-content: center;
+                padding: 1rem 1.75rem;
+                text-decoration: none;
+                width: 100%;
+                border: 0;
+                cursor: pointer;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                align-items: center;
+                gap: 20px;
+                font-size: 30px;
+                border: 2px solid #c0121e;
+                border-width: 5px;
+                font-weight: bold;
+            }
+            .buttonTG:hover {
+                background-image: linear-gradient(-180deg, wheat 0%, wheat 100%);
+            }
+        }
+    }
+    // .contact2{
+    //     height: 400px;
+    //     max-width: 1366px;
+    //     margin: auto;
+    //     // margin-top: 600px;
+    //     display: flex;
+    //     align-items: center;
+    //     gap: 50px;
+    //     justify-content: center;
+
+    //     .textContainer2{
+    //         flex: 1;
+    //         display: flex;
+    //         flex-direction: column;
+    //         gap: 400px;
+            
+    //         .titre2{
+    //             font-size: 100px;
+    //             color: black;
+    //             line-height: 88px;
+    //         }
+    //     }
+    // }
+}

@@ -1,0 +1,124 @@
+.section3{
+    .title{
+        color: black;
+        max-width: 2500px;
+        width: 80%;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        font-size: 50px;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .imageContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        gap: 50px;
+
+
+        .im1{
+            text-align: center;
+
+            .i1{
+                width: 180px; /* Réduit la largeur de chaque image à 100 pixels */
+                height: auto; /* Maintient le rapport hauteur/largeur d'origine */
+                margin: 10px; /* Espacement entre les images si nécessaire */
+            }
+
+            .t1{
+                color: black;
+            }
+        }
+
+        .im2{
+            text-align: center;
+
+            .i2{
+                width: 180px; /* Réduit la largeur de chaque image à 100 pixels */
+                height: auto; /* Maintient le rapport hauteur/largeur d'origine */
+                margin: 10px; /* Espacement entre les images si nécessaire */
+            }
+
+            .t2{
+                color: black;
+            }
+        }
+    }
+
+
+    .title2{
+        color: black;
+        max-width: 2500px;
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        font-size: 50px;
+        align-items: center;
+        font-weight: bold;
+        }
+    
+
+    .cadreContainer{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1600px;
+        align-items: center;
+        margin: auto;
+        font-weight: bold;
+
+        
+        .cadre{
+            border: 3px solid #000;
+            padding: 10px;
+            color: #000;
+            font-size: 30px;
+            text-align: center;
+            height: 200px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 30px;
+
+            
+
+            .p1{
+                font-size: 100px;
+            }
+            .p2{
+                font-size: 100px;
+            }
+        }
+
+        .cadre1{
+            border: 3px solid #000;
+            padding: 10px;
+            color: #000;
+            font-size: 15px;
+            text-align: center;
+            height: 200px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 30px;
+            font-weight: bold;
+
+            span{
+                font-size: 16px;
+            }
+    }
+
+      
+}
+}
