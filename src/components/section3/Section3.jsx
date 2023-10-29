@@ -4,7 +4,7 @@ const Section3 = () => {
     return (
         <div className="section3">
             <div className="title">
-                <h2>WHO WE WORKED WITH</h2>
+                <h2>TRUSTED BY</h2>
             </div>
             <div className="imageContainer">
                 <div className="im1">
@@ -46,10 +46,10 @@ const Section3 = () => {
             </div>
             <div className="cadreContainer">
                 <div className="cadre1">
-                    <p>VENTURE CAPITALISTS</p>
-                    <p>HEDGE FUNDS</p>
-                    <p>B2C STARTUPS</p>
-                    <p>B2B STARTUPS</p>
+                    {/* <p>VENTURE CAPITALISTS</p> */}
+                    {/* <p>HEDGE FUNDS</p> */}
+                    {/* <p>B2C STARTUPS</p> */}
+                    {/* <p>B2B STARTUPS</p> */}
                     <p> GROWTH HACKING</p>
                     <p>MARKETING</p>
                     <p>PRODUCT DISTRIBUTION</p>
@@ -61,7 +61,7 @@ const Section3 = () => {
                     <p>IMPRESSIONS COMBINED</p>
                 </div>
                 <div className="cadre">
-                    <p className="p2">97K+</p>
+                    <p className="p2">100K+</p>
                     <p>FOLLOWERS COMBINED</p>
                 </div>
             </div>
