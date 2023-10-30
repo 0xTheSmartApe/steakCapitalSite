@@ -2,6 +2,10 @@
     height: 100%;
     background-color: #F6F7E6;
     align-items: center;
+    @media (max-width: 390px) {
+        margin-top: 50px;
+        justify-content: center;
+    }
     .textUp{
         max-width: 2500px;
         width: 80%;
