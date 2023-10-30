@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="wrapper">
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
                     <motion.h2 variants={textVariants} className="H2">Enjoy the flavor of alpha, It's a rare treat!</motion.h2>
-                    <motion.h1 variants={textVariants} className="H1">Private group of investors & builders providing marketing, advisory, and research</motion.h1>
+                    <motion.h1 variants={textVariants} className="H1">Private group of investors & builders providing marketing, advisory, and research.</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIGVNwpKouGrWXcjpeYZWHw1cSNKt08PBmriO5z35OanIURw/viewform?usp=sf_link">
                             <motion.button className="buttonJoin" variants={textVariants}>Join Us</motion.button>

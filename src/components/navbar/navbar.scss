@@ -11,6 +11,13 @@
         justify-content: space-between;
         height: 100%;
 
+        @media (max-width: 390px) {
+            h2 {
+                font-size: 20px;
+                margin-left: 20px;
+            }
+        }
+
         span{
             font-weight: bold;
             color: black;
@@ -91,6 +98,30 @@
                 width: 40px;
                 height: 40px;
             }
+
+            @media (max-width: 390px) {
+                .button1 {
+                    font-size: 10px;
+                    width: 80%;
+                    border-width: 2px;
+                }
+            }
+
+            @media (max-width: 390px) {
+                .button2 {
+                    font-size: 10px;
+                    width: 80%;
+                    border-width: 2px;
+                }
+            }
         }
+
+        @media (max-width: 390px) {
+            .social {
+                gap: 0px;
+            }
+        }
+
     }
+    
 }
