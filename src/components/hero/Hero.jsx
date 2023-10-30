@@ -62,6 +62,7 @@ const Hero = () => {
                 <img className = "steak" src="/knifes2.png" alt=""/>
             </div>
         </div>
+
     )
 }
 
