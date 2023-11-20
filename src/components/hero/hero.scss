@@ -1,11 +1,13 @@
 .hero{
     height: calc(95vh - 100px);
+    // height: 100%;
     overflow: hidden;
     background: #F6F7E6;
     position: relative;
 
     .wrapper{
-        max-width: 1600px;
+        // max-width: 1600px;
+        max-width: 95%;
         height: 100%;
         margin: auto;
 
@@ -16,7 +18,8 @@
             flex-direction: column;
             justify-content: center;
             gap: 40px;
-            margin-left: 60px;
+            // margin-left: 60px;
+            margin-left: 5%;
 
             .H2{
                 font-size: 45px;
@@ -106,8 +109,10 @@
         top:0;
         right: 0;
         .steak{
-            height: 900px;
-            margin-top: -100px;
+            // height: 900px;
+            height: 90%;
+            // margin-top: -100px;
+            margin-top: -10%;
         }
         @media (max-width: 390px) {
             .steak {
