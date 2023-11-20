@@ -1,6 +1,9 @@
 .section3{
     max-width: 90%;
     margin: auto;
+    @media (max-width: 90%) {
+        height: 95%;
+    }
     .title{
         color: black;
         // max-width: 2500px;
@@ -173,7 +176,8 @@
             font-weight: bold;
             @media (max-width: 390px) {
                 font-size: 10px;
-                height: 70px;
+                // height: 70px;
+                height: 70%;
                 width: 160px;
             }
 
